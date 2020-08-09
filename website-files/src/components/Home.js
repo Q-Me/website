@@ -11,9 +11,9 @@ class Home extends  Component{
 <div class="banner_w3lspvt" id="home">
 	<div class="csslider infinity" id="slider1">
 		<input type="radio" name="slides" checked="checked" id="slides_1"/>
-		<input type="radio" name="slides" id="slides_2"/>
+	{/*	<input type="radio" name="slides" id="slides_2"/>
 		<input type="radio" name="slides" id="slides_3"/>
-		<input type="radio" name="slides" id="slides_4"/>
+		<input type="radio" name="slides" id="slides_4"/>   */  }
 
 		<ul class="banner_slide_bg">
 			<li>
@@ -21,9 +21,10 @@ class Home extends  Component{
 					<div class="bs-slider-overlay">
 						<div class="banner-text">
 							<div class="container">
-								<h2 class="movetxt agile-title text-capitalize">We Create and Renovate Hair Style Trends</h2>
-								<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. It has survived not only five centuries.</p>
-								
+								<h2 class="movetxt agile-title text-capitalize">Subscriber Name</h2>
+								<br></br><br></br>
+								<h2 class="movetxt agile-title text-capitalize" >Address</h2>
+								<br></br> <br></br>
 								<a href='#appointment' class="btn">Get appointment</a>
 							</div>
 						</div>
@@ -73,9 +74,9 @@ class Home extends  Component{
 		<div class="navigation"> 
 			<div>
 			  <label for="slides_1"></label>
-			  <label for="slides_2"></label>
+			{/*  <label for="slides_2"></label>
 			  <label for="slides_3"></label>
-			  <label for="slides_4"></label>
+			  <label for="slides_4"></label>   */}
 			</div>
 		</div>
 	</div>
@@ -238,6 +239,28 @@ class Home extends  Component{
                         <option value="">8:30 - 9:00</option>
                         <option value="">9:00 - 9:30</option>
                         <option value="">9:30 - 10:00</option>
+                        <option value="">10:00 - 10:30</option>
+                        <option value="">10:30 - 11:00</option>
+                        <option value="">11:00 - 11:30</option>
+                        <option value="">11:30 - 12:00</option>
+                        <option value="">12:00 - 12:30</option>
+                        <option value="">12:30 - 13:00</option>
+                        <option value="">13:00 - 13:30</option>
+                        <option value="">13:30 - 14:00</option>
+                        <option value="">14:00 - 14:30</option>
+                        <option value="">14:30 - 15:00</option>
+                        <option value="">15:00 - 15:30</option>
+                        <option value="">15:30 - 16:00</option>
+                        <option value="">15:00 - 15:30</option>
+                        <option value="">15:30 - 16:00</option>
+                        <option value="">16:00 - 16:30</option>
+                        <option value="">16:30 - 17:00</option>
+                        <option value="">17:00 - 17:30</option>
+                        <option value="">17:30 - 18:00</option>
+                        <option value="">18:00 - 18:30</option>
+                        <option value="">18:30 - 19:00</option>
+                        <option value="">19:00 - 19:30</option>
+                        <option value="">19:30 - 20:00</option>
                       </select>
                     </div>
 			            </div>
