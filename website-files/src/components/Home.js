@@ -208,16 +208,18 @@ class Home extends  Component{
 	                  <input type="text" class="form-control appointment_date" placeholder="Date"/>
 	                </div>    
 	              </div>
+	             
+
 	              <div class="col-sm-6">
 	                <div class="form-group">
-	                  <input type="text" class="form-control appointment_time" placeholder="Time"/>
+	                  <input type="text" class="form-control" id="phone" placeholder="Phone"/>
 	                </div>
 	              </div>
 	              <div class="col-sm-6">
 	                <div class="form-group">
 			              <div class="select-wrap">
                       <div class="icon"><span class="ion-ios-arrow-down"></span></div>
-                      <select name="" id="" class="form-control">
+                      <select name="" id="" class="form-control" placeholder="Time">
                       	<option value="">Professional Makeup</option>
                         <option value="">Manicure Pedicure</option>
                         <option value="">Body Treatment</option>
@@ -226,11 +228,21 @@ class Home extends  Component{
                     </div>
 			            </div>
 	              </div>
+
 	              <div class="col-sm-6">
 	                <div class="form-group">
-	                  <input type="text" class="form-control" id="phone" placeholder="Phone"/>
-	                </div>
+			              <div class="select-wrap">
+                      <div class="icon"><span class="ion-ios-arrow-down"></span></div>
+                      <select name="" id="" class="form-control">
+                      	<option value="">8:00 - 8:30</option>
+                        <option value="">8:30 - 9:00</option>
+                        <option value="">9:00 - 9:30</option>
+                        <option value="">9:30 - 10:00</option>
+                      </select>
+                    </div>
+			            </div>
 	              </div>
+	              
 	              <div class="col-md-12">
 	              	<div class="form-group">
 		                <textarea name="" id="" cols="30" rows="7" class="form-control" placeholder="Message"></textarea>
