@@ -24,7 +24,7 @@ class Home extends  Component{
 								<h2 class="movetxt agile-title text-capitalize">We Create and Renovate Hair Style Trends</h2>
 								<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. It has survived not only five centuries.</p>
 								
-								<Link to='/contact' class="btn">Get appointment</Link>
+								<a href='#appointment' class="btn">Get appointment</a>
 							</div>
 						</div>
 					</div>
@@ -80,11 +80,11 @@ class Home extends  Component{
 		</div>
 	</div>
 </div>
-// {/* <!-- //banner -->
-//  <!-- banner bottom grids --> */}
+ {/* <!-- //banner -->
+  <!-- banner bottom grids --> */}
     <section class="content-info py-5" id="about">
         <div class="container py-md-5">
-		<h3 class="heading text-center mb-3 mb-sm-5">About us</h3>
+		<h3 class="heading text-center mb-3 mb-sm-5">About</h3>
 
             <div class="info-w3pvt-mid text-center px-lg-5">
 
@@ -93,17 +93,17 @@ class Home extends  Component{
                     <p class="px-lg-5">Praesent ullamcorper dui turpis.At vero eos et accusam et justo duo dolores et ea rebum.Integer sit amet mattis quam, sit amet ultricies velit. Praesent ullamcorper dui turpis.
                         Praesent ullamcorper dui turpis.At vero eos et accusam et justo duo dolores et ea rebum.Integer sit amet mattis quam, sit amet ultricies velit. Praesent ullamcorper dui turpis.</p>
                     
-					<Link to="/services" class="btn mt-lg-4 mt-3 read scroll" role="button">Learn More</Link>
+					{ /* <Link to="/services" class="btn mt-lg-4 mt-3 read scroll" role="button">Learn More</Link>  */ }
                 </div>
             </div>
         </div>
     </section>
-//     {/* <!-- //banner bottom grids -->
+     {/* <!-- //banner bottom grids -->
 
-//  <!-- /services --> */}
+  <!-- /services --> */}
     <section class="services py-5" id="services">
         <div class="container py-md-5">
-		<h3 class="heading text-center mb-3 mb-sm-5">Services</h3>
+		<h3 class="heading text-center mb-3 mb-sm-5">Gallery</h3>
             <div class="row ab-info">
                 <div class="col-md-6 ab-content ab-content1">
                     <div class="ab-content-inner">
@@ -167,194 +167,97 @@ class Home extends  Component{
             </div>
         </div>
     </section>
-    {/* // <!-- /services -->
+    { /*  <!-- /services -->
  
-	// <!-- pricing -->  */}
-<section class="pricing py-5">	
-	<div class="container py-md-5">
-		<h3 class="heading text-capitalize text-center mb-3 mb-sm-5"> Our Pricing</h3>
-		<div class="row pricing-grids">
-			<div class="col-lg-6  mb-lg-0 mb-5">
-				<div class="padding">
-					 <h3>PRICES FOR MUSTACHE TRIMMING</h3>
-					{/* <!-- Item starts --> */}
-					<div class="menu-item">
-						<div class="row border-dot no-gutters">
-							<div class="col-8 menu-item-name">
-								<h6>Trim your Mustaches style 1</h6>
-							</div>
-							<div class="col-4 menu-item-price text-right">
-								<h6>$7</h6>
-							</div>
-						</div>
-						
-					</div>
-					{/* <!-- Item ends -->
-					<!-- Item starts --> */}
-					<div class="menu-item my-4">
-						<div class="row border-dot no-gutters">
-							<div class="col-8 menu-item-name">
-								<h6>Trim your Mustaches style 2</h6>
-							</div>
-							<div class="col-4 menu-item-price text-right">
-								<h6>$10</h6>
-							</div>
-						</div>
-					</div>
-					{/* <!-- Item ends -->
-					<!-- Item starts --> */}
-					<div class="menu-item">
-						<div class="row border-dot no-gutters">
-							<div class="col-8 menu-item-name">
-								<h6>Trim your Mustaches style 3</h6>
-							</div>
-							<div class="col-4 menu-item-price text-right">
-								<h6>$15</h6>
-							</div>
-						</div>
-						
-					</div>
-					{/* <!-- Item ends -->
-					<!-- Item starts --> */}
-					<div class="menu-item mt-4">
-						<div class="row border-dot no-gutters">
-							<div class="col-8 menu-item-name">
-								<h6>Trim your Mustaches style 4</h6>
-							</div>
-							<div class="col-4 menu-item-price text-right">
-								<h6>$15</h6>
-							</div>
-						</div>
-					</div>
-					{/* <!-- Item ends -->
-					<!-- Item starts --> */}
-					<div class="menu-item mt-4">
-						<div class="row border-dot no-gutters">
-							<div class="col-8 menu-item-name">
-								<h6>Trim your Mustaches style 5</h6>
-							</div>
-							<div class="col-4 menu-item-price text-right">
-								<h6>$20</h6>
-							</div>
-						</div>
-					</div>
-					{/* <!-- Item ends -->
-					<!-- Item starts --> */}
-					<div class="menu-item mt-4">
-						<div class="row border-dot no-gutters">
-							<div class="col-8 menu-item-name">
-								<h6>Trim your Mustaches style 6</h6>
-							</div>
-							<div class="col-4 menu-item-price text-right">
-								<h6>$25</h6>
-							</div>
-						</div>
-					</div>
-					{/* <!-- Item ends --> */}
-				</div>
-			</div>
-			<div class="col-lg-6  mb-lg-0 mb-5">
-				<div class="padding">
-					<h3>HAIR AND BEARD CUT PRICES</h3>
-					{/* <!-- Item starts --> */}
-					<div class="menu-item">
-						<div class="row border-dot no-gutters">
-							<div class="col-8 menu-item-name">
-								<h6>Dye your hair and beard 1</h6>
-							</div>
-							<div class="col-4 menu-item-price text-right">
-								<h6>$27</h6>
-							</div>
-						</div>
-						
-					</div>
-					{/* <!-- Item ends -->
-					<!-- Item starts --> */}
-					<div class="menu-item my-4">
-						<div class="row border-dot no-gutters">
-							<div class="col-8 menu-item-name">
-								<h6>Dye your hair and beard 2</h6>
-							</div>
-							<div class="col-4 menu-item-price text-right">
-								<h6>$21</h6>
-							</div>
-						</div>
-						
-					</div>
-					{/* <!-- Item ends -->
-					<!-- Item starts --> */}
-					<div class="menu-item">
-						<div class="row border-dot no-gutters">
-							<div class="col-8 menu-item-name">
-								<h6>Dye your hair and beard 3</h6>
-							</div>
-							<div class="col-4 menu-item-price text-right">
-								<h6>$25</h6>
-							</div>
-						</div>
-					</div>
-					{/* <!-- Item ends -->
-					<!-- Item starts --> */}
-					<div class="menu-item mt-4">
-						<div class="row border-dot no-gutters">
-							<div class="col-8 menu-item-name">
-								<h6>Dye your hair and beard 4</h6>
-							</div>
-							<div class="col-4 menu-item-price text-right">
-								<h6>$28</h6>
-							</div>
-						</div>
-					</div>
-					{/* <!-- Item ends -->
-					<!-- Item starts --> */}
-					<div class="menu-item mt-4">
-						<div class="row border-dot no-gutters">
-							<div class="col-8 menu-item-name">
-								<h6>Dye your hair and beard 5</h6>
-							</div>
-							<div class="col-4 menu-item-price text-right">
-								<h6>$30</h6>
-							</div>
-						</div>
-					</div>
-					{/* <!-- Item ends -->
-					<!-- Item starts --> */}
-					<div class="menu-item mt-4">
-						<div class="row border-dot no-gutters">
-							<div class="col-8 menu-item-name">
-								<h6>Dye your hair and beard 6</h6>
-							</div>
-							<div class="col-4 menu-item-price text-right">
-								<h6>$35</h6>
-							</div>
-						</div>
-					</div>
-					{/* <!-- Item ends --> */}
-				</div>		
-			</div>
-					
-		</div>		
-	</div>		
-</section>
-// {/* <!-- //pricing -->
-//   <!--/order-now--> */}
+	 <!-- pricing -->  
+   {/* <!-- //pricing -->
+   <!--/order-now-->   */ }
     <section class="order-sec py-5">
         <div class="container py-md-5">
             <div class="test-info text-center">
                 <h3 class="tittle order">
-                    <span>CALL US TO BOOK An APPOINTMENT</span>Our team will call back immediately and Book the Appointment</h3>
+                    <span id="appointment" >CALL US TO BOOK An APPOINTMENT</span>Our team will call back immediately and Book the Appointment</h3>
                 <h4 class="tittle my-2">123456789  </h4>
 
+                 <section class="ftco-section ftco-booking bg-light">
+    	<div class="container ftco-relative">
+    		<div class="row justify-content-center pb-3">
+          <div class="col-md-10 heading-section text-center ftco-animate">
+          	<span class="subheading">Booking</span>
+            <h2 class="mb-4">Make an Appointment</h2>
+            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia</p>
+          </div>
+        </div>
+        <h3 class="vr">Call Us: 012-3456-7890</h3>
+    		<div class="row justify-content-center">
+    			<div class="col-md-10 ftco-animate">
+    				<form action="#" class="appointment-form">
+	            <div class="row">
+	              <div class="col-sm-6">
+	                <div class="form-group">
+			              <input type="text" class="form-control" id="appointment_name" placeholder="Name"/>
+			            </div>
+	              </div>
+	              <div class="col-sm-6">
+	                <div class="form-group">
+			              <input type="text" class="form-control" id="appointment_email" placeholder="Email"/>
+			            </div>
+	              </div>
+	              <div class="col-sm-6">
+	                <div class="form-group">
+	                  <input type="text" class="form-control appointment_date" placeholder="Date"/>
+	                </div>    
+	              </div>
+	              <div class="col-sm-6">
+	                <div class="form-group">
+	                  <input type="text" class="form-control appointment_time" placeholder="Time"/>
+	                </div>
+	              </div>
+	              <div class="col-sm-6">
+	                <div class="form-group">
+			              <div class="select-wrap">
+                      <div class="icon"><span class="ion-ios-arrow-down"></span></div>
+                      <select name="" id="" class="form-control">
+                      	<option value="">Professional Makeup</option>
+                        <option value="">Manicure Pedicure</option>
+                        <option value="">Body Treatment</option>
+                        <option value="">Haircut &amp; Coloring</option>
+                      </select>
+                    </div>
+			            </div>
+	              </div>
+	              <div class="col-sm-6">
+	                <div class="form-group">
+	                  <input type="text" class="form-control" id="phone" placeholder="Phone"/>
+	                </div>
+	              </div>
+	              <div class="col-md-12">
+	              	<div class="form-group">
+		                <textarea name="" id="" cols="30" rows="7" class="form-control" placeholder="Message"></textarea>
+		              </div>
+	              </div>
+		          </div>
+		         {/* // <div class="form-group">
+	               <input type="submit" value="Make an Appointment" class="btn btn-primary"/>
+	             </div>   */}
+	          </form>
+    			</div>
+    		</div>
+    	</div>
+    </section>
+
+
+
                 <div class="read-more mx-auto m-0 text-center">
-					<Link to="/contact" class="read-more scroll btn">Click here</Link> 
+					<Link to="#" class="read-more scroll btn">Book My Appointment</Link> 
 				</div>
             </div>
         </div>
     </section>
-//     {/* <!--//order-now-->
+    {/* <!--//order-now-->
 
-//  <!--/testimonials--> */}
-    <section class="testimonials py-5" id="testimonials">
+  <!--/testimonials--> */}
+  {/*  <section class="testimonials py-5" id="testimonials">
         <div class="container py-md-5">
                <h3 class="heading text-center mb-3 mb-sm-5">Client Reviews</h3>
             <div class="row mt-3">
@@ -442,8 +345,9 @@ class Home extends  Component{
         </div>
     </section>
 
-// {/* <!--//testimonials-->
-// <!-- subscribe --> */}
+ {/* <!--//testimonials-->
+ <!-- subscribe --> */}
+ { /*
 <section class="subscribe" id="subscribe">
 	<div class="container-fluid">
 		<div class="row">
@@ -465,8 +369,8 @@ class Home extends  Component{
 		</div>
 	</div>
 </section>
-// {/* <!-- //subscribe -->
-// <!-- footer --> */}
+  <!-- //subscribe -->    
+ <!-- footer -->    */}
     
     </div>
         )

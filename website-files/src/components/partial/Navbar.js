@@ -17,24 +17,24 @@ class Navbar extends Component{
 				<nav>
 					<label for="drop" class="toggle mt-lg-0 mt-1"><span class="fa fa-bars" aria-hidden="true"></span></label>
 					<input type="checkbox" id="drop" />
-						<ul class="menu">
-							<li class="mr-lg-3 mr-2 active"><Link to='/'>Home</Link></li>
-							<li class="mr-lg-3 mr-2"><Link to='/about'>About</Link></li>
-							<li class="mr-lg-3 mr-2 p-0">
-							{/* <!-- First Tier Drop Down --> */}
-							<label for="drop-2" class="toggle">Dropdown <span class="fa fa-angle-down" aria-hidden="true"></span> </label>
-							<a href="#">Dropdown <span class="fa fa-angle-down" aria-hidden="true"></span></a>
-							<input type="checkbox" id="drop-2"/>
-							<ul class="inner-dropdown">
-								<li><Link to='/services'>Services</Link></li>
-								<li><Link to='/single'>Single</Link></li>
-							</ul>
-							</li>
-							<li class="mr-lg-3 mr-2"><Link to='/gallery'>Gallery</Link></li>
-							<li class="mr-lg-3 mr-2"><Link to='/contact'>Contact Us</Link></li>
+						 {/*// <ul class="menu">
+						// 	<li class="mr-lg-3 mr-2 active"><Link to='/'>Home</Link></li>
+						// 	<li class="mr-lg-3 mr-2"><Link to='/about'>About</Link></li>
+						// 	<li class="mr-lg-3 mr-2 p-0">
+						// 	 <!-- First Tier Drop Down --> */}
+					    { /*	// 	<label for="drop-2" class="toggle">Dropdown <span class="fa fa-angle-down" aria-hidden="true"></span> </label>
+						// 	<a href="#">Dropdown <span class="fa fa-angle-down" aria-hidden="true"></span></a>
+						// 	<input type="checkbox" id="drop-2"/>
+						// 	<ul class="inner-dropdown">
+						// 		<li><Link to='/services'>Services</Link></li>
+						// 		<li><Link to='/single'>Single</Link></li>
+						// 	</ul>
+						// 	</li>
+						// 	<li class="mr-lg-3 mr-2"><Link to='/gallery'>Gallery</Link></li>
+						// 	<li class="mr-lg-3 mr-2"><Link to='/contact'>Contact Us</Link></li>
 							
 
-						</ul>
+						// </ul> */  } 
 				</nav>
 			</div>
 
